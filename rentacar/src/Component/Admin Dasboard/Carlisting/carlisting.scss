@@ -1,0 +1,49 @@
+.carlisting{
+    min-height: 100vh;
+    background-color: black;
+}
+.cardgroups{
+    width: 90vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+.cardcont{
+    margin-top: 15vh;
+    .cont{
+        width: 100%;
+        display: flex;
+        input{
+            width: 50%;
+            margin: 1rem auto;
+            font-size: 1rem;
+            height: 3rem;
+            padding: 1rem;
+            border: 1px solid #FD6621;
+        }
+        .successbtn{
+            height: 3rem;
+        }
+    }
+    
+    
+}
+.spangrid{
+    display: grid;
+    grid-template-columns: .5fr 1fr ;
+}
+.alladd{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    div{
+        display: grid;
+        grid-template-columns: .6fr 1fr;
+
+    }
+}
+.image{
+    margin:1rem ;
+    padding: 2rem;
+    border: 1px dashed #FD6621;
+}

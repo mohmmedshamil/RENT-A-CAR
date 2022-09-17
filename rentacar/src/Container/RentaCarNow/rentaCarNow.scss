@@ -1,0 +1,47 @@
+.RentaCarNow{
+    max-width: 1000px;
+    margin-top: 5%;
+    min-height: 25vh;
+    background-color: #FD6621;
+    margin: 5% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    h1{
+        font-size: 1.5rem;
+        color: white;
+        font-weight: 700;
+    }
+    .rentselect{
+        display: grid;
+        grid-template-columns:13% 13% 13% 13% 13% 13%;
+        gap: 1rem;
+        justify-content: center;
+        .samedes{
+            background-color: #fff;
+            color: black;
+            font-size: .8rem;
+            button,input{
+                width: 100%;
+                border: none;
+                padding: .6rem;
+            }
+            button{
+                border: 2px solid white;
+                color: white;
+                font-weight: 700;
+                background-color: #FD6621;
+            }
+            input::placeholder{
+                color: black !important;
+                font-size: inherit;
+            }
+        }
+    }
+}
+.mainrent{
+    // position: absolute;
+    bottom: -10%;
+    max-width: 1400px;
+    width: 100vw;
+}

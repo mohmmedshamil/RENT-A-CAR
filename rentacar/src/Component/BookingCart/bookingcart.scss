@@ -1,0 +1,32 @@
+.mainrow{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 15vh;
+    .image{
+        border: 1px solid black;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+p{
+    margin: 0 !important;
+}
+.alledit{
+    animation-name: moving;
+    animation-duration: 0.7s;
+    animation-delay: 2s;
+}
+@keyframes moving {
+    0% {
+        left: 0;
+      }
+      50% {
+        left: 100%;
+      }
+      100% {
+        left: 0;    
+      }
+    }
